@@ -1,6 +1,6 @@
 <?php
 $mysqli = new mysqli("localhost", "root", "", "currency_converter");
-
+ $query_result= '';
 if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);
 }
